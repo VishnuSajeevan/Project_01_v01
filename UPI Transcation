@@ -1,0 +1,6 @@
+@Test(priority = 7, description= "UPI Transcation")
+	public void UPITranscation()
+	{
+		System.out.println("UPI Transcation");
+	}
+	
