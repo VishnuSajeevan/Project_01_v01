@@ -19,11 +19,17 @@ public class FirstTestNG
 		System.out.println(" Items Selected ");
 	}
 	
-	@Test(priority = -3,description= "Check the Checkout Functionality")
+	@Test(priority = 3,description= "Check the Checkout Functionality")
 	public void Checkout()
 	
 	{
 		System.out.println(" Checked Out");
+	}
+	
+	@Test(priority = 4, description= "Remove Items from Cart")
+	public void RemoveItems()
+	{
+		System.out.println("Removed from Cart");
 	}
 
 
