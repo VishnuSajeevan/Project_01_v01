@@ -31,6 +31,12 @@ public class FirstTestNG
 	{
 		System.out.println("Removed from Cart");
 	}
+	
+	@Test(priority = 6, description= "Cash Payment")
+	public void CashPayment()
+	{
+		System.out.println("Cash Payment");
+	}
 
 
 
