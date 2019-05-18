@@ -32,6 +32,12 @@ public class FirstTestNG
 		System.out.println("Removed from Cart");
 	}
 
+       @Test(priority = 5, description= "Card Payment Accepted")
+	public void CardPayment()
+	{
+		System.out.println("Card Payment Done");
+	}
+
 
 
 }
